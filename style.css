@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.header {
+  margin: 1rem auto;
+  /* background-color: red; */
+  width: 50%;
+  padding: 1rem 0;
+}
+.header .heading {
+  background-color: antiquewhite;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+.container {
+  background-color: aqua;
+  width: 50%;
+  height: 50vh;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+input[type="number"] {
+  padding: 1rem 0;
+  margin: 0.5rem auto;
+  width: 60%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.error--message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.btn--guess-number {
+  border: none;
+  padding: 10px 10px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: antiquewhite;
+  margin-bottom: 6px;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+.para .prev--guess {
+  font-style: italic;
+  font-size: large;
+  padding: 1rem 0;
+}
+.para .rem--guess {
+  font-style: italic;
+  font-size: large;
+  padding: 1rem 0;
+}
+.guess--message {
+  font-size: xx-large;
+  font-weight: bolder;
+  background-color: blueviolet;
+  color: white;
+}
+.new--game {
+  border: none;
+  padding: 10px 10px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: antiquewhite;
+  margin: 1rem 0;
+  font-weight: bolder;
+  font-style: oblique;
+}
